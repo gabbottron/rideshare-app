@@ -87,5 +87,5 @@ func main() {
   // get a schedule for the drivers & riders
   driver_schedule := rideshare.GetSchedule(pickup_times)
 
-  log.Printf("The final schedule: %v", driver_schedule)
+  log.Printf("Total Drivers: %d, The driver schedule: %v", len(driver_schedule), driver_schedule)
 }
